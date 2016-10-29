@@ -17,7 +17,7 @@ public class Client {
 
             if (numero.length() >= 6) {
                 cp[nbcmp] = new Compte(numero, nom);
-                cp[nbcmp].setIntert((int) (1 + Math.random() * 20));
+                cp[nbcmp].setIntert((int) (1 + Math.random() * 20)); // astucieux 
             }
 
             else
